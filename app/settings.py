@@ -79,16 +79,15 @@ WSGI_APPLICATION = "app.wsgi.application"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": "flix-api",
-        "USER": "root",
-        "PASSWORD": "Lucasdias1",
-        "HOST": "127.0.0.1",
-        "PORT": "3306",
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'joaovdias$default',
+        'USER': 'joaovdias',
+        'PASSWORD': 'Lucasdias1',
+        'HOST': 'joaovdias.mysql.pythonanywhere-services.com',
+        'PORT': '3306',
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
